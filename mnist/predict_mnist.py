@@ -1,3 +1,10 @@
+'''
+Predict mnist digit image with a mnist trained model
+
+  by Chang Jo Kim
+'''
+
+
 import tensorflow as tf
 import my_mnist
 import scipy
@@ -5,6 +12,9 @@ import numpy as np
 
 #from tensorflow.examples.tutorials.mnist import input_data
 #mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+
+## Please install
+# scipy, numpy, pillow
 
 
 def tensorflow_session():
