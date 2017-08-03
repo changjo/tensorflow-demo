@@ -77,7 +77,12 @@ def start():
     
 if __name__ == '__main__':
 
-    image_files = ["test_examples/3/30.png", "test_examples/4/48.png", "test_examples/7/80.png"]
+    # image_files = []
+    # for i in range(10):
+    #     for j in range(1, 11):
+    #         image_files.append("test_examples/" + str(i) +"/" + str(j) + ".png")
+    
+    image_files = ["test_examples/8/1.png", "test_examples/0/1.png", "test_examples/3/1.png"]
 
     # Start and get a predict function
     predict = start()
