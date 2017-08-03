@@ -1,4 +1,4 @@
-## Prerequite
+## Prerequisite
 
 - scipy, numpy, pillow
 
