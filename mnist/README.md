@@ -15,11 +15,11 @@ $ pip3 install pillow
 #### Simple example
 ```python
 
-from predict_mnist import start
+import predict_mnist
 
 image_files = ["test_examples/8/1.png", "test_examples/0/1.png", "test_examples/3/1.png"]
 
-predict = start()
+predict = predict_mnist.start()
 predicted_digits = predict(image_files)
 
 for i in range(len(predicted_digits)):
