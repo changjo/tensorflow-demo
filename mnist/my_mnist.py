@@ -10,9 +10,6 @@ Modified
 # coding: utf-8
 
 
-#Load MNIST Data
-
-
 import tensorflow as tf
 from tensorflow.contrib.tensorboard.plugins import projector
 
@@ -23,10 +20,10 @@ TRAIN = False
 ADD_IMAGE_SUMMARY = False
 
 if TRAIN:
+
+    #Load MNIST Data
     from tensorflow.examples.tutorials.mnist import input_data
     mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
-
-
 
 
 # Build a Multilayer Convolutional Network
