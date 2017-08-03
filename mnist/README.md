@@ -1,5 +1,11 @@
 ## Prerequite
 
-- pip3 install scipy
-- pip3 install numpy
-- pip3 install pillow
+- scipy, numpy, pillow
+
+For example:
+
+```
+$ pip3 install scipy
+$ pip3 install numpy
+$ pip3 install pillow
+```
