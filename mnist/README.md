@@ -1,4 +1,6 @@
-## Prerequisite
+## MNIST
+
+### Requirements
 
 - scipy, numpy, pillow
 
@@ -10,7 +12,7 @@ $ pip3 install numpy
 $ pip3 install pillow
 ```
 
-## How to Use
+### How to Use
 
 #### Simple example
 ```python
@@ -39,6 +41,6 @@ ___
 `test_examples` 안에 디렉토리 이름은 실제 label이고 각 숫자당 10개씩 (`1.png` ~ `10.png`) 테스트 이미지들이 있습니다.
 
 예)
-`test_examples/8/8.png` : 실제 레이블이 8인 이미지.
+`test_examples/8/2.png` : 실제 레이블이 8인 이미지.
 
 ___
